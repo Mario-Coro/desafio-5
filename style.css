@@ -38,6 +38,9 @@
 
   /* main */
   main{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(17,17,164,1) 35%, rgba(0,212,255,1) 100%);
+
    }
 
   main div {
@@ -50,9 +53,13 @@
       justify-content: center ;
   }
 
-  main div p {
+  main div p:hover{
       font-size: 20px;
       color: #fff;
+      -webkit-transition: width 0.8s 1s ease;
+      -moz-transition: width 0.8s 1s ease;
+      -o-transition: width 0.8s 1s ease;
+      transition: width 0.8s 1s ease;
   }
 
   /* footer */
